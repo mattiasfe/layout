@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="output"></div>
+    <button onclick="setNum16()">Set Number to 16</button>
+    <button onclick="setNum47()">Set Number to 47</button>
+
+    <script>
+
+      //var nummer = 5; //int
+      //var floatnumb = 5,5; //kompasepatert tall
+      //var text = "en liten texbit"; //string
+      //var enkeltTegn = 'a'; //char
+      //var booleans = true; //booleans
+
+      var outputDiv = document.getElementById('output');
+      var numToShow = 0;
+
+      function setNum16(){
+        numToShow = 16;
+        outputDiv.innerHTML = numToShow;
+      }
+
+      function setNum47(){
+        numToShow = 47;
+        outputDiv.innerHTML = numToShow;
+      }
+
+    </script>
+</body>
+</html>
